@@ -1,0 +1,69 @@
+{
+    "name": "traektoria-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "admin",
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^36.0.1",
+        "@ckeditor/ckeditor5-react": "^5.1.0",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^29.2.1",
+        "@types/node": "^18.11.9",
+        "@types/react": "^18.0.24",
+        "@types/react-dom": "^18.0.8",
+        "axios": "^0.27.2",
+        "dotenv": "^16.0.2",
+        "effector": "^22.3.0",
+        "effector-react": "^22.1.6",
+        "eslint-plugin-tailwindcss": "^3.10.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-helmet": "^6.1.0",
+        "react-hook-form": "^7.34.0",
+        "react-hot-toast": "^2.3.0",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "swr": "^2.0.0",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "dev": "react-scripts dev",
+        "start": "set PORT=3000 && react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/ckeditor__ckeditor5-build-classic": "^29.0.1",
+        "@typescript-eslint/eslint-plugin": "^5.54.0",
+        "@typescript-eslint/parser": "^5.54.0",
+        "autoprefixer": "^10.4.13",
+        "eslint": "^8.35.0",
+        "postcss": "^8.4.21",
+        "prettier": "2.7.1",
+        "prettier-plugin-tailwindcss": "^0.1.13",
+        "tailwind-scrollbar": "^2.1.0",
+        "tailwindcss": "^3.2.6",
+        "typescript": "^4.9.5"
+    }
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    input[type="range"]::-webkit-slider-thumb {
+        width: 20px;
+        height: 20px;
+        -webkit-appearance: none;
+        appearance: none;
+        background: #fff;
+        border: 1px solid #73bde9;
+        border-radius: 100%;
+    }
+
+    input[type="range"]::-webkit-slider-thumb:hover {
+        border: 1px solid #e9a573;
+    }
+}
+
+@layer utilities {
+    .blue-shadow {
+        box-shadow: 0 0 15px rgba(115, 189, 233, 0.2);
+    }
+
+    .thin-scrollbar {
+        @apply scrollbar scrollbar-track-white scrollbar-thumb-[#96d4f8] scrollbar-w-[5px];
+    }
+}
+
+/* .scrollbar-thin {
+    overflow: scroll !important;
+} */
